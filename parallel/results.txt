@@ -1,0 +1,136 @@
+Usage: python sum_primes.py [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 1 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         1 |        100.00 |       2.3670 |     2.366967 | local
+Time elapsed since server creation 4.27870702744
+0 active tasks, 1 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         2 |        100.00 |       6.1575 |     3.078734 | local
+Time elapsed since server creation 9.39291501045
+0 active tasks, 1 cores
+
+[tejasnikumbh@emsys12 parallel]$ python parallel_stage_2.py 2
+Usage: python sum_primes.py [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 2 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         2 |        100.00 |       2.8929 |     1.446451 | local
+Time elapsed since server creation 3.03676795959
+0 active tasks, 2 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         4 |        100.00 |       7.5795 |     1.894879 | local
+Time elapsed since server creation 6.36463499069
+0 active tasks, 2 cores
+
+[tejasnikumbh@emsys12 parallel]$ python parallel_stage_2.py 3
+Usage: python sum_primes.py [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 3 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         3 |        100.00 |       3.0011 |     1.000358 | local
+Time elapsed since server creation 2.68011307716
+0 active tasks, 3 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         6 |        100.00 |       7.0659 |     1.177642 | local
+Time elapsed since server creation 5.20164012909
+0 active tasks, 3 cores
+
+[tejasnikumbh@emsys12 parallel]$ python parallel_stage_2.py 4
+Usage: python sum_primes.py [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 4 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         4 |        100.00 |       2.4570 |     0.614240 | local
+Time elapsed since server creation 2.42097496986
+0 active tasks, 4 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         8 |        100.00 |       7.5332 |     0.941645 | local
+Time elapsed since server creation 4.69720602036
+0 active tasks, 4 cores
+
+[tejasnikumbh@emsys12 parallel]$ python parallel_stage_2.py 5
+Usage: python sum_primes.py [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 5 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         5 |        100.00 |       2.9500 |     0.589996 | local
+Time elapsed since server creation 2.2948679924
+0 active tasks, 5 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+        10 |        100.00 |       7.7578 |     0.775778 | local
+Time elapsed since server creation 4.36797690392
+0 active tasks, 5 cores
+
+[tejasnikumbh@emsys12 parallel]$ python parallel_stage_2.py 6
+Usage: python sum_primes.py [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 6 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         6 |        100.00 |       3.1978 |     0.532970 | local
+Time elapsed since server creation 2.26840186119
+0 active tasks, 6 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+        12 |        100.00 |       8.3984 |     0.699866 | local
+Time elapsed since server creation 4.38715696335
+0 active tasks, 6 cores
+
+[tejasnikumbh@emsys12 parallel]$ python parallel_stage_2.py 7
+Usage: python sum_primes.py [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 7 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         7 |        100.00 |       3.4546 |     0.493518 | local
+Time elapsed since server creation 2.20547199249
+0 active tasks, 7 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+        14 |        100.00 |       8.3273 |     0.594805 | local
+Time elapsed since server creation 4.17293095589
+0 active tasks, 7 cores
+
+[tejasnikumbh@emsys12 parallel]$ python parallel_stage_2.py 8
+Usage: python sum_primes.py [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 8 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         8 |        100.00 |       3.8746 |     0.484327 | local
+Time elapsed since server creation 2.1598470211
+0 active tasks, 8 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+        16 |        100.00 |       9.8695 |     0.616844 | local
+Time elapsed since server creation 4.13672614098
+0 active tasks, 8 cores
+
+

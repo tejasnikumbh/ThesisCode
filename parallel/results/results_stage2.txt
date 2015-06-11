@@ -1,0 +1,138 @@
+[tejasnikumbh@emsys12 stage2]$ python parallel_stage_2_release.py 1
+Usage: python [scriptname.py] [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 1 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         1 |        100.00 |       6.0603 |     6.060293 | local
+Time elapsed since server creation 11.0432591438
+0 active tasks, 1 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         2 |        100.00 |      13.5218 |     6.760914 | local
+Time elapsed since server creation 21.9223840237
+0 active tasks, 1 cores
+
+[tejasnikumbh@emsys12 stage2]$ python parallel_stage_2_release.py 2
+Usage: python [scriptname.py] [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 2 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         2 |        100.00 |       5.5015 |     2.750733 | local
+Time elapsed since server creation 7.46496486664
+0 active tasks, 2 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         4 |        100.00 |      14.9735 |     3.743380 | local
+Time elapsed since server creation 14.6248948574
+0 active tasks, 2 cores
+
+[tejasnikumbh@emsys12 stage2]$ ^C
+[tejasnikumbh@emsys12 stage2]$ python parallel_stage_2_release.py 3
+Usage: python [scriptname.py] [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 3 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         3 |        100.00 |       7.4624 |     2.487462 | local
+Time elapsed since server creation 6.59505915642
+0 active tasks, 3 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         6 |        100.00 |      16.6778 |     2.779626 | local
+Time elapsed since server creation 12.2213721275
+0 active tasks, 3 cores
+
+[tejasnikumbh@emsys12 stage2]$ python parallel_stage_2_release.py 4
+Usage: python [scriptname.py] [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 4 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         4 |        100.00 |       7.4520 |     1.863007 | local
+Time elapsed since server creation 5.88134503365
+0 active tasks, 4 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         8 |        100.00 |      16.9198 |     2.114981 | local
+Time elapsed since server creation 10.9481728077
+0 active tasks, 4 cores
+
+[tejasnikumbh@emsys12 stage2]$ python parallel_stage_2_release.py 5
+Usage: python [scriptname.py] [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 5 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         5 |        100.00 |       6.9043 |     1.380862 | local
+Time elapsed since server creation 5.63122391701
+0 active tasks, 5 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+        10 |        100.00 |      16.4585 |     1.645848 | local
+Time elapsed since server creation 10.3349819183
+0 active tasks, 5 cores
+
+[tejasnikumbh@emsys12 stage2]$ python parallel_stage_2_release.py 6
+Usage: python [scriptname.py] [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 6 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         6 |        100.00 |       7.7711 |     1.295187 | local
+Time elapsed since server creation 5.43977284431
+0 active tasks, 6 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+        12 |        100.00 |      18.8775 |     1.573121 | local
+Time elapsed since server creation 10.1556119919
+0 active tasks, 6 cores
+
+[tejasnikumbh@emsys12 stage2]$ python parallel_stage_2_release.py 7
+Usage: python [scriptname.py] [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 7 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         7 |        100.00 |       7.8983 |     1.128329 | local
+Time elapsed since server creation 5.32808899879
+0 active tasks, 7 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+        14 |        100.00 |      17.7001 |     1.264294 | local
+Time elapsed since server creation 9.68837118149
+0 active tasks, 7 cores
+
+[tejasnikumbh@emsys12 stage2]$ python parallel_stage_2_release.py 8
+Usage: python [scriptname.py] [ncpus]
+        [ncpus] - the number of workers to run in parallel,
+        if omitted it will be set to the number of processors in the system
+Starting pp with 8 workers
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+         8 |        100.00 |      13.1387 |     1.642334 | local
+Time elapsed since server creation 5.47057509422
+0 active tasks, 8 cores
+
+Job execution statistics:
+ job count | % of all jobs | job time sum | time per job | job server
+        16 |        100.00 |      25.2440 |     1.577753 | local
+Time elapsed since server creation 9.72243618965
+0 active tasks, 8 cores
+
+
